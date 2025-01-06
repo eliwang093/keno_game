@@ -1,0 +1,221 @@
+/** Start Screen **/
+.start-game {
+    background: #000000ed;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /*z-index: 1;*/
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FCD703;
+}
+
+.start-game-startBtn {
+    /*width: calc(620px*var(--zoomCoef));*/
+    /*font-size: calc(30px * var(--zoomCoef));*/
+    /*background-size: 100% 100%;*/
+    font-size: calc(40vw * 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 2em;
+    padding: 0 1em;
+    background: linear-gradient(to right, darkblue, blue, darkblue) no-repeat center;
+    border: 2px solid;
+    border-radius: 0.2em;
+    overflow: hidden;
+    position: relative;
+}
+
+.start-game-startBtn::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(-65deg, transparent 30%, rgba(255, 255, 255, 0.3), transparent 60%);
+    transition: 500ms linear;
+    transform: translateX(-100%);
+}
+
+/*** Go To Landscape Screen ***/
+.go-to-landscape {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    appearance: none;
+}
+
+.go-to-landscape__video {
+    height: auto;
+    width: 100%;
+}
+
+.hand-touch {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+.hand-touch,
+.hand-touch__img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (orientation: portrait) {
+    .go-to-landscape {
+        opacity: 1;
+        visibility: visible;
+        appearance: initial;
+    }
+
+    .go-to-landscape__video {
+    }
+}
+
+/*** End Go To Landscape Screen ***/
+
+.d-none {
+    display: none;
+}
+
+.ghist {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.ghist.seen {
+    opacity: 1;
+    visibility: visible;
+    z-index: 9999;
+}
+
+.ghist__wrap {
+    height: 100%;
+}
+
+/*
+.scrollBlock {
+    height:200vh;
+    position:absolute;
+    overflow:auto;
+    width:1px;
+    top:0;
+    left:0
+}*/
+
+
+.error-box, .error-box--content {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.error-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    visibility: hidden;
+    transition: 300ms ease;
+}
+
+.error-box.seen {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+    z-index: 99999;
+}
+
+.error-box--content {
+    padding: 30px 40px;
+    background: #fff;
+    border: 1px solid #999;
+    box-shadow: 0 0 5px 0 #666;
+    max-width: 500px;
+    text-align: center;
+}
+
+.error-box--btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 1px solid #1e1e1e;
+    background: #333;
+    color: #fff;
+}
+
+.video-wrap {
+    z-index: 1002;
+    position: absolute;
+    padding: 0;
+    cursor: default;
+    background: #000;
+}
+
+.video-wrap.clip {
+    clip-path: inset(7% 0%);
+}
+
+.video-el {
+    height: 100%;
+    width: 100%;
+}
+
+.video-wrap.hiding:not(.seen) {
+    display: none
+}
+
+.btn-fullscreen {
+    background: transparent url(../libs/FLGUtils/resources/Video/ExpandW.png) center center / 100% auto;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: none;
+    visibility: visible !important;
+    z-index: 1;
+}
+
+.kEqual1000 {
+    position: absolute;
+    color: #ae9268;
+    font-family: Arial Narrow;
+    font-size: 41px;
+}
+
+.kEqual1000-mobile {
+}

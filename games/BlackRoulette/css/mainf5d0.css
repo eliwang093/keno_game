@@ -1,0 +1,282 @@
+@keyframes changeTimerOpacity {
+    100% {
+        opacity: 0;
+    }
+}
+
+.btn-control-selected {
+    opacity: 0;
+    transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+}
+
+.btn-control-selected:hover {
+    opacity: 0.6;
+    transition: opacity .11s ease-out;
+    -webkit-transition: opacity .11s ease-out;
+}
+
+.btn-control-selected:active {
+    opacity: 0.9;
+    transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+}
+
+.btn-control-selected-mobile {
+    opacity: 0;
+    transition: opacity .2s ease-out;
+    -webkit-transition: opacity .2s ease-out;
+}
+
+.btn-control-selected-mobile-active {
+    opacity: 0.9;
+    transition: opacity .11s ease-out;
+    -webkit-transition: opacity .11s ease-out;
+}
+
+.unselectable {
+    /* For Opera and <= IE9, we need to add unselectable="on" attribute onto each element */
+    /* Check this site for more details: http://help.dottoro.com/lhwdpnva.php */
+    -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
+    -webkit-user-select: none;
+    -ms-user-select: none; /* From IE10 only */
+    user-select: none; /* Not valid CSS yet, as of July 2012 */
+    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    user-drag: none;
+}
+
+.history-ball-red-mobile {
+    background-color: #c0372d;
+    border-radius: 50%;
+}
+
+.history-ball-green-mobile {
+    background-color: #37754a;
+    border-radius: 50%;
+}
+
+.history-ball-black-mobile {
+    background-color: #323232;
+    border-radius: 50%;
+}
+
+.history-ball-red {
+    background-color: #c0372d;
+    border-radius: 50%;
+}
+
+.history-ball-green {
+    background-color: #37754a;
+    border-radius: 50%;
+}
+
+.history-ball-black {
+    background-color: #323232;
+    border-radius: 50%;
+}
+
+.win-ball-red {
+    background: url(../resources/mobile/win_R.png) no-repeat 100% 100%;
+}
+
+.win-ball-green {
+    background: url(../resources/mobile/win_G.png) no-repeat 100% 100%;
+}
+
+.win-ball-black {
+    background: url(../resources/mobile/win_B.png) no-repeat 100% 100%;
+}
+
+/* ФИШКИ ПЕРЕВОРАЧИВАЮЩИЕСЯ */
+.Chip_component_2UVTI {
+    position: relative;
+    width: 95px; /*влияет на расстоние между фишкками*/
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+
+.Chip_component_2UVTI_MOBILE {
+    width: 130px; /*влияет на расстоние между фишкками*/
+}
+
+.scale-micro .Chip_component_2UVTI {
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+    margin-top: -5px;
+    width: 45px;
+}
+
+.Chip_component_2UVTI.Chip_isDisabled_2RK_o {
+    opacity: 0.4;
+}
+
+.Chip_component_2UVTI.Chip_yellow_3DAOA .Chip_mainPath_KUWHt {
+    fill: #ffc214;
+}
+
+.Chip_component_2UVTI.Chip_yellow_3DAOA .Chip_darkPath_1zzqe {
+    fill: #715a1f;
+}
+
+.Chip_component_2UVTI.Chip_yellow_3DAOA .Chip_shadowPath_2avsW {
+    fill: #948773;
+}
+
+.Chip_component_2UVTI.Chip_red_2PdQZ .Chip_mainPath_KUWHt {
+    fill: #f24137;
+}
+
+.Chip_component_2UVTI.Chip_red_2PdQZ .Chip_darkPath_1zzqe {
+    fill: #7f211d;
+}
+
+.Chip_component_2UVTI.Chip_red_2PdQZ .Chip_shadowPath_2avsW {
+    fill: #947373;
+}
+
+.Chip_component_2UVTI.Chip_blue_2zyvu .Chip_mainPath_KUWHt {
+    fill: #9900e8;
+}
+
+.Chip_component_2UVTI.Chip_blue_2zyvu .Chip_darkPath_1zzqe {
+    fill: #4d0075;
+}
+
+.Chip_component_2UVTI.Chip_blue_2zyvu .Chip_shadowPath_2avsW {
+    fill: #897394;
+}
+
+.Chip_component_2UVTI.Chip_green_l17VV .Chip_mainPath_KUWHt {
+    fill: #36a84a;
+}
+
+.Chip_component_2UVTI.Chip_green_l17VV .Chip_darkPath_1zzqe {
+    fill: #194c22;
+}
+
+.Chip_component_2UVTI.Chip_green_l17VV .Chip_shadowPath_2avsW {
+    fill: #73947a;
+}
+
+.Chip_component_2UVTI.Chip_grey_2sdQr .Chip_mainPath_KUWHt {
+    fill: #006fe8;
+}
+
+/*666666*/
+.Chip_component_2UVTI.Chip_grey_2sdQr .Chip_darkPath_1zzqe {
+    fill: #003875;
+}
+
+/*414141*/
+.Chip_component_2UVTI.Chip_grey_2sdQr .Chip_shadowPath_2avsW {
+    fill: #738394;
+}
+
+/*939393*/
+.Chip_component_2UVTI.Chip_orange_2sdQr .Chip_mainPath_KUWHt {
+    fill: #f77529;
+}
+
+.Chip_component_2UVTI.Chip_orange_2sdQr .Chip_darkPath_1zzqe {
+    fill: #7f491d;
+}
+
+.Chip_component_2UVTI.Chip_orange_2sdQr .Chip_shadowPath_2avsW {
+    fill: #948473;
+}
+
+.Chip_contents_32dLH {
+    width: 85px; /*ширина самой фишки*/
+    height: 85px; /*высота самой фишки*/
+    cursor: pointer;
+    transition: -webkit-transform 400ms;
+    transition: transform 400ms;
+    transition: transform 400ms, -webkit-transform 400ms;
+    -webkit-transform: perspective(250px) rotateX(50deg);
+    transform: perspective(250px) rotateX(50deg);
+}
+
+.Chip_contents_32dLH_MOBILE {
+    width: 120px; /*ширина самой фишки*/
+    height: 120px; /*высота самой фишки*/
+}
+
+.Chip_component_2UVTI.Chip_isSelected_1qLig .Chip_contents_32dLH {
+    -webkit-transform: perspective(250px) rotateX(1deg);
+    transform: perspective(250px) rotateX(1deg);
+}
+
+.Chip_background_1hZNb {
+    position: absolute;
+    top: 8px; /* толщина фишки */
+    transition: -webkit-transform 400ms;
+    transition: transform 400ms;
+    transition: transform 400ms, -webkit-transform 400ms;
+    -webkit-transform: scale3d(0.975, 1, 1) translate3d(0, 4px, 0);
+    transform: scale3d(0.975, 1, 1) translate3d(0, 4px, 0);
+}
+
+.Chip_background_1hZNb_MOBILE {
+    top: 11px; /* толщина фишки */
+}
+
+.Chip_component_2UVTI.Chip_isSelected_1qLig .Chip_background_1hZNb {
+    -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+    transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
+}
+
+.Chip_icon_2_33B {
+    position: absolute;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.Chip_label_2--9m {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 25px; /*размер текста на фишке*/
+    line-height: 88px; /*влияет на положение текста в фишке*/
+    color: #333333;
+    vertical-align: middle;
+    font-weight: 600;
+    margin-top: -2px;
+    transition: -webkit-transform 400ms;
+    transition: transform 400ms;
+    transition: transform 400ms, -webkit-transform 400ms;
+    -webkit-transform: translate3d(0, 2px, 0);
+    transform: translate3d(0, 2px, 0);
+}
+
+.history-ball,
+.Chip_label_2--9m,
+.Chip_label_2--9m_MOBILE,
+.historyBallText22 {
+    font-family: "Arial Narrow";
+}
+
+.Chip_label_2--9m_MOBILE {
+    font-size: 36px; /*размер текста на фишке*/
+    line-height: 120px; /*влияет на положение текста в фишке*/
+}
+
+.Chip_component_2UVTI.Chip_isSelected_1qLig .Chip_label_2--9m {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+/* -- ФИШКИ ПЕРЕВОРАЧИВАЮЩИЕСЯ -- */
+.kEqual1000 {
+    left: 1151px;
+    top: 0;
+    font-size: 30px;
+}
+
+.kEqual1000-mobile {
+    top: 17px;
+    left: 1300px;
+    font-size: 40px;
+}

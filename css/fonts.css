@@ -1,0 +1,104 @@
+/* font-family: "ArialBold"; */
+@font-face {
+    font-family: "Arial Bold";
+    url("../fonts/ArialBold/ArialBold.woff") format("woff"),
+    url("../fonts/ArialBold/ArialBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Arial Narrow";
+    src: url('../fonts/ArialNarrow/ArialNarrow.ttf') format('truetype'),
+    url("../fonts/ArialNarrow/ArialNarrow.woff") format("woff");
+}
+
+/* font-family: "ArialBlack"; */
+@font-face {
+    font-family: "Arial Black";
+    src: url("../fonts/ArialBlack/ArialBlack.eot");
+    src: url("../fonts/ArialBlack/ArialBlack.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ArialBlack/ArialBlack.woff") format("woff"),
+    url("../fonts/ArialBlack/ArialBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Book Antiqua";
+    src: url('../fonts/BookAntiqua/BookAntiqua.ttf') format('truetype'),
+    url("../fonts/BookAntiqua/BookAntiqua.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Calibri";
+    src: url("../fonts/Calibri/Calibri.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arial";
+    url("../fonts/ArialRegular/ArialRegular1.woff") format("woff"),
+    url("../fonts/ArialRegular/ArialRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Trebuchet MS";
+    src: url('../fonts/TrebuchetMsRegular/TrebuchetMsRegular.ttf') format('truetype'),
+    url("../fonts/TrebuchetMsRegular/TrebuchetMsRegular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Baltica";
+    src: url('../fonts/baltica.ttf') format('truetype'),
+    url("../fonts/baltica.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Georgia";
+    src: url('../fonts/georgia.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Myriad Pro Cond";
+    src: url('../fonts/MyriadProBoldCond/MyriadProBoldCond.woff') format('woff'),
+    url('../fonts/MyriadProBoldCond/MyriadProBoldCond.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Swiss721-CondensedBold";
+    src: url("../fonts/swiss721boldcondensedbt.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Century725";
+    src: url("../fonts/century725bt.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Century725 Bold";
+    src: url("../fonts/century725boldbt.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Avenir Next Medium";
+    src: url("../fonts/AvenirNextCyr-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Avenir Next Demi";
+    src: url("../fonts/AvenirNextCyr-Demi.ttf") format("truetype");
+}
+
+

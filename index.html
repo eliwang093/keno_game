@@ -1,0 +1,632 @@
+<!DOCTYPE html> <!--[if lt IE 7]>
+<html lang="en" class="lt-ie9 lt-ie8 lt-ie7"><![endif]--> <!--[if IE 7]>
+<html lang="en" class="lt-ie9 lt-ie8"><![endif]--> <!--[if IE 8]>
+<html lang="en" class="lt-ie9"><![endif]--> <!--[if gt IE 8]><!-->
+<html lang="en" xmlns="http://www.w3.org/1999/html" style="background-color: #000000; height: 0;"> <!--<![endif]-->
+
+<head>
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92764982-4"></script>
+	<script>window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-92764982-4');</script>
+	-->
+    <meta charset="utf-8">
+    <meta name="description" content="The best place to place your bet.Virtual Games / Football / Horse Racing - Greyhounds / Poker / Roulette and many more, find us at tinkbet.com">
+    <meta property="og:site_name" content="flgamer.de">
+    <meta property="og:title" content="The best place to place your bet.">
+    <meta property="og:url" content="https://flgamer.de/">
+    <meta property="og:description" content="⭐⭐⭐⭐⭐ The best place to place your bet.Keno / Roulette / Racing  / Poker / Football and many more.">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="google" content="notranslate">
+    <link id="favico" rel="icon" type="image/png" href="/home/favico-flg.png">
+    <link id="mobico" rel="apple-touch-icon" href="/home/icon-mobile-180x180.jpg" sizes="180x180" type="image/png">
+    <title>Xplay.bet</title>
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css"/>
+    <link rel="stylesheet" href="libs/fancybox2/jquery.fancybox.css"/>
+    <link rel="stylesheet" href="libs/DataTables/css/dataTables.semanticui.min.css"/>
+    <link rel="stylesheet" href="libs/DataTables/css/jquery.dataTables.min.css"/>
+    <link rel="stylesheet" href="libs/DataTables/semanticStyle/semantic.min.css"/>
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/main.css?d=20241009"/>
+    <link rel="stylesheet" href="games/BlackRoulette/css/mainf5d0.css?d=20241020"/>
+    <link rel="stylesheet" href="games/BlackRoulette4Sasha/css/main2d2b.css?d=1"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    <!--    <script src="https://cdn.jsdelivr.net/npm/hls.js"></script>-->
+    <script src="libs/hls/hls.js?d=09042021"></script>
+    <script src="libs/rtc/wowza-webrtc-player.js?d=12042021"></script>
+    <script src="libs/FLGUtils/rtcVideo.js"></script>
+    <script src="libs/rtc/auto-save.js?d=11042021"></script>
+    <!-- <script src="js/game/preload.js?d=190420201"></script> -->
+</head>
+<body ondragstart="return false">
+<div id="preload"><img style="display: none;" src="images/logo.png"></div>
+<div id="loader-wrapper">
+    <div id="loader" class="loader loader-loading"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+
+<ul id="space-bg">
+    <li class="layer" data-depth="0.20" style="height: 110%;">
+        <div class="space-img"></div>
+    </li>
+</ul>
+
+<div class="start-game d-none" id="startGameBox">
+    <div class="start-game-startBtn" id="startScreen_startBtn_android">
+        <span class="scaleText" id="startScreen_startBtn_txt">START THE GAME</span>
+    </div>
+</div>
+
+<div id="games-form" class="active-form" style="position: relative; left: 0%">
+    <div id="games-form-header">
+        <div class="center-align">
+            <div class="center-align scalable-offsets" style="left: -582px;">
+                <div class="back-button tool-button center-align"></div>
+                <div id="logout" class="back-button-selected tool-button center-align"></div>
+            </div>
+            <div class="center-align scalable-offsets" style="left: -480px;">
+                <div class="lang-button tool-button center-align">RUS</div>
+                <div class="lang-button-selected tool-button center-align">RUS</div>
+                <div id="lang-button-dropdown" class="top-align">
+                    <div class="ru-lang-button tool-button">
+                        <div class="ru-lang-button-selected lang-item tool-button center-align" lang="ru"></div>
+                    </div>
+                    <div class="kz-lang-button tool-button">
+                        <div class="kz-lang-button-selected lang-item tool-button center-align" lang="kz"></div>
+                    </div>
+                    <div class="en-lang-button tool-button">
+                        <div class="en-lang-button-selected lang-item tool-button center-align" lang="en"></div>
+                    </div>
+                    <div class="es-lang-button tool-button">
+                        <div class="es-lang-button-selected lang-item tool-button center-align" lang="es"></div>
+                    </div>
+                    <div class="ku-lang-button tool-button">
+                        <div class="ku-lang-button-selected lang-item tool-button center-align" lang="ku"></div>
+                    </div>
+                    <div class="ar-lang-button tool-button">
+                        <div class="ar-lang-button-selected lang-item tool-button center-align" lang="ar"></div>
+                    </div>
+                    <div class="pt-lang-button tool-button">
+                        <div class="pt-lang-button-selected lang-item tool-button center-align" lang="pt"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="msgInfo" class="center-align scalable-offsets" style="left: -331px; display: none;">
+                <div class="msg-button center-align">
+                    <div class="msg-button__svg">
+                        <div class="msg-button__svg__full">
+                            <svg style="height: 100%;" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 55.5 28.4">
+                                <style>.st2 {
+                                    fill: #fff
+                                }</style>
+                                <path d="M49.7 14.3c0-3.1 2.6-5.7 5.7-5.7V7.4c-.7 0-1.3-.6-1.3-1.3 0-.7.6-1.3 1.3-1.3V3.5c-.7 0-1.3-.6-1.3-1.3 0-.7.6-1.3 1.3-1.3V0H0v.9c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3v1.4c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3v1.1c3.1 0 5.7 2.6 5.7 5.7S3.1 20 0 20v1.2c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3v1.4c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3v.7h55.4v-.7c-.7 0-1.3-.6-1.3-1.3 0-.7.6-1.3 1.3-1.3v-1.4c-.7 0-1.3-.6-1.3-1.3 0-.7.6-1.3 1.3-1.3V20c-3.2 0-5.7-2.6-5.7-5.7z"
+                                      fill="#fec708"/>
+                                <path fill="none" stroke="#fff" stroke-width="2" stroke-miterlimit="10"
+                                      d="M7.6 2.9h39.9v22.7H7.6z"/>
+                                <path class="st2"
+                                      d="M16.8 8.4v2.1h-1.2v-1H15V13h.7v1h-3v-1h.7V9.5h-.7v1h-1.2V8.4h5.3zm.4 0h2.7v1.1h-.5V13h.5v1h-2.7v-1h.5V9.5h-.5V8.4zm7.3 3.6l.9 1c-.7.8-1.5 1.1-2.4 1.1-.9 0-1.5-.3-2.1-.8-.5-.5-.8-1.2-.8-2.1 0-.4.1-.9.2-1.2.2-.4.4-.7.6-.9.2-.2.5-.4.8-.6.3-.1.6-.2.8-.2.6 0 1 .2 1.2.5l.3-.4h1.3v2.3h-1.4c0-.3-.1-.5-.2-.7-.1-.2-.4-.3-.6-.3-.3 0-.5.2-.7.5s-.4.6-.4 1.1c0 .4.1.8.3 1.1s.5.4.9.4h.2c.1 0 .2 0 .2-.1s.1-.1.2-.1.1-.1.2-.1.1-.1.2-.1l.1-.1s.1-.2.2-.3zm3.8-2.6h-.4v1.3l1.5-1.3h-.6v-1h2.7v1H31l-1.2 1 1.6 2.5h.5v1h-3.1v-1h.5l-.9-1.4-.6.5v1h.4v1h-2.5v-1h.4V9.4h-.4v-1h2.5v1zm4-1h4.9v1.8h-1.4v-.7h-1.3v1.1H36v1.1h-1.5V13h1.3v-.7h1.4V14h-4.9v-1h.5V9.5h-.5V8.4zm10.6 0v2.1h-1.2v-1H41V13h.7v1h-3v-1h.7V9.5h-.7v1h-1.2V8.4h5.4zM16.6 21.6v-5.9h.4v5.6h1.9v.4h-2.3zm2.8-4.5c0-.9.4-1.5 1.3-1.5s1.3.6 1.3 1.5v3c0 .9-.4 1.5-1.3 1.5s-1.3-.6-1.3-1.5v-3zm.4 3.1c0 .6.3 1.1.9 1.1.7 0 .9-.5.9-1.1v-3.1c0-.6-.3-1.1-.9-1.1-.7 0-.9.5-.9 1.1v3.1zm3.8 1.4V16h-1.2v-.4h2.8v.4H24v5.6h-.4zm3.2 0V16h-1.2v-.4h2.8v.4h-1.2v5.6h-.4zm4.1-3.2v.4h-1.6v2.5h1.9v.4h-2.3v-5.9h2.3v.4h-1.9v2.4h1.6zm2.2-2.7c.9 0 1.3.5 1.3 1.3v.5c0 .7-.3 1.1-.9 1.2.6.1.9.6.9 1.2v.9c0 .2 0 .5.1.7h-.4c-.1-.1-.1-.3-.1-.6V20c0-.8-.4-1-1.1-1h-.6v2.7h-.4v-5.9h1.2zm-.2 2.9c.7 0 1.1-.2 1.1-1V17c0-.6-.2-1-.9-1h-.8v2.6h.6zm3.3.7l-1.3-3.7h.4l1.1 3.1 1.1-3.1h.5l-1.3 3.7v2.3h-.4v-2.3z"/>
+                                <defs>
+                                    <path id="SVGID_1_"
+                                          d="M49.7 14.3c0-3.1 2.6-5.7 5.7-5.7V7.4c-.7 0-1.3-.6-1.3-1.3 0-.7.6-1.3 1.3-1.3V3.5c-.7 0-1.3-.6-1.3-1.3 0-.7.6-1.3 1.3-1.3V0H0v.9c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3v1.4c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3v1.1c3.1 0 5.7 2.6 5.7 5.7S3.1 20 0 20v1.2c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3v1.4c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3v.7h55.4v-.7c-.7 0-1.3-.6-1.3-1.3 0-.7.6-1.3 1.3-1.3v-1.4c-.7 0-1.3-.6-1.3-1.3 0-.7.6-1.3 1.3-1.3V20c-3.2 0-5.7-2.6-5.7-5.7z"/>
+                                </defs>
+                                <clipPath id="SVGID_2_">
+                                    <use xlink:href="#SVGID_1_" overflow="visible"/>
+                                </clipPath>
+                                <g opacity=".4" clip-path="url(#SVGID_2_)">
+                                    <path transform="rotate(-45.001 10.463 10.463)" class="st2"
+                                          d="M-7.3 8h35.5v5H-7.3z"/>
+                                    <path transform="rotate(-45.001 6.957 6.958)" class="st2"
+                                          d="M-10.8 6.1h35.5v1.7h-35.5z"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <svg class="msg-button__svg__transparent" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 55.5 28.4">
+                            <style>.st2 {
+                                fill: #fff
+                            }</style>
+                            <path d="M49.7 14.3c0-3.1 2.6-5.7 5.7-5.7V7.4c-.7 0-1.3-.6-1.3-1.3 0-.7.6-1.3 1.3-1.3V3.5c-.7 0-1.3-.6-1.3-1.3 0-.7.6-1.3 1.3-1.3V0H0v.9c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3v1.4c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3v1.1c3.1 0 5.7 2.6 5.7 5.7S3.1 20 0 20v1.2c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3v1.4c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3v.7h55.4v-.7c-.7 0-1.3-.6-1.3-1.3 0-.7.6-1.3 1.3-1.3v-1.4c-.7 0-1.3-.6-1.3-1.3 0-.7.6-1.3 1.3-1.3V20c-3.2 0-5.7-2.6-5.7-5.7z"
+                                  fill="#fec708"/>
+                            <path fill="none" stroke="#fff" stroke-width="2" stroke-miterlimit="10"
+                                  d="M7.6 2.9h39.9v22.7H7.6z"/>
+                            <path class="st2"
+                                  d="M16.8 8.4v2.1h-1.2v-1H15V13h.7v1h-3v-1h.7V9.5h-.7v1h-1.2V8.4h5.3zm.4 0h2.7v1.1h-.5V13h.5v1h-2.7v-1h.5V9.5h-.5V8.4zm7.3 3.6l.9 1c-.7.8-1.5 1.1-2.4 1.1-.9 0-1.5-.3-2.1-.8-.5-.5-.8-1.2-.8-2.1 0-.4.1-.9.2-1.2.2-.4.4-.7.6-.9.2-.2.5-.4.8-.6.3-.1.6-.2.8-.2.6 0 1 .2 1.2.5l.3-.4h1.3v2.3h-1.4c0-.3-.1-.5-.2-.7-.1-.2-.4-.3-.6-.3-.3 0-.5.2-.7.5s-.4.6-.4 1.1c0 .4.1.8.3 1.1s.5.4.9.4h.2c.1 0 .2 0 .2-.1s.1-.1.2-.1.1-.1.2-.1.1-.1.2-.1l.1-.1s.1-.2.2-.3zm3.8-2.6h-.4v1.3l1.5-1.3h-.6v-1h2.7v1H31l-1.2 1 1.6 2.5h.5v1h-3.1v-1h.5l-.9-1.4-.6.5v1h.4v1h-2.5v-1h.4V9.4h-.4v-1h2.5v1zm4-1h4.9v1.8h-1.4v-.7h-1.3v1.1H36v1.1h-1.5V13h1.3v-.7h1.4V14h-4.9v-1h.5V9.5h-.5V8.4zm10.6 0v2.1h-1.2v-1H41V13h.7v1h-3v-1h.7V9.5h-.7v1h-1.2V8.4h5.4zM16.6 21.6v-5.9h.4v5.6h1.9v.4h-2.3zm2.8-4.5c0-.9.4-1.5 1.3-1.5s1.3.6 1.3 1.5v3c0 .9-.4 1.5-1.3 1.5s-1.3-.6-1.3-1.5v-3zm.4 3.1c0 .6.3 1.1.9 1.1.7 0 .9-.5.9-1.1v-3.1c0-.6-.3-1.1-.9-1.1-.7 0-.9.5-.9 1.1v3.1zm3.8 1.4V16h-1.2v-.4h2.8v.4H24v5.6h-.4zm3.2 0V16h-1.2v-.4h2.8v.4h-1.2v5.6h-.4zm4.1-3.2v.4h-1.6v2.5h1.9v.4h-2.3v-5.9h2.3v.4h-1.9v2.4h1.6zm2.2-2.7c.9 0 1.3.5 1.3 1.3v.5c0 .7-.3 1.1-.9 1.2.6.1.9.6.9 1.2v.9c0 .2 0 .5.1.7h-.4c-.1-.1-.1-.3-.1-.6V20c0-.8-.4-1-1.1-1h-.6v2.7h-.4v-5.9h1.2zm-.2 2.9c.7 0 1.1-.2 1.1-1V17c0-.6-.2-1-.9-1h-.8v2.6h.6zm3.3.7l-1.3-3.7h.4l1.1 3.1 1.1-3.1h.5l-1.3 3.7v2.3h-.4v-2.3z"/>
+                            <defs>
+                                <path id="SVGID_1_"
+                                      d="M49.7 14.3c0-3.1 2.6-5.7 5.7-5.7V7.4c-.7 0-1.3-.6-1.3-1.3 0-.7.6-1.3 1.3-1.3V3.5c-.7 0-1.3-.6-1.3-1.3 0-.7.6-1.3 1.3-1.3V0H0v.9c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3v1.4c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3v1.1c3.1 0 5.7 2.6 5.7 5.7S3.1 20 0 20v1.2c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3v1.4c.7 0 1.3.6 1.3 1.3 0 .7-.6 1.3-1.3 1.3v.7h55.4v-.7c-.7 0-1.3-.6-1.3-1.3 0-.7.6-1.3 1.3-1.3v-1.4c-.7 0-1.3-.6-1.3-1.3 0-.7.6-1.3 1.3-1.3V20c-3.2 0-5.7-2.6-5.7-5.7z"/>
+                            </defs>
+                            <clipPath id="SVGID_2_">
+                                <use xlink:href="#SVGID_1_" overflow="visible"/>
+                            </clipPath>
+                            <g opacity=".4" clip-path="url(#SVGID_2_)">
+                                <path transform="rotate(-45.001 10.463 10.463)" class="st2" d="M-7.3 8h35.5v5H-7.3z"/>
+                                <path transform="rotate(-45.001 6.957 6.958)" class="st2"
+                                      d="M-10.8 6.1h35.5v1.7h-35.5z"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="msg-button__X">X</div>
+                    <div class="msg-button__ticket-count">?</div>
+                    <div class="msg-button__label"></div>
+                </div>
+            </div>
+        </div>
+        <div class="logo center-align"></div>
+        <div class="center-align">
+            <div class="center-align already_logged scalable-offsets" style="left: 385px;">
+                <div class="stake-button stake-buttons center-align already_logged">MY BETS</div>
+                <div class="stake-button-selected stake-buttons center-align already_logged">MY BETS</div>
+            </div>
+            <div class="center-align not_logged scalable-offsets" style="left: 370px;">
+                <div class="stake-button signin-buttons center-align not_logged">LOG IN</div>
+                <div class="stake-button-selected signin-buttons center-align not_logged">LOG IN</div>
+            </div>
+            <div class="center-align not_logged scalable-offsets" style="left: 538px;">
+                <div class="stake-button reg-buttons center-align not_logged">REGISTRATION</div>
+                <div class="stake-button-selected reg-buttons center-align not_logged"><i class="fa fa-pencil-square-o"
+                                                                                          aria-hidden="true"></i>REGISTRATION
+                </div>
+            </div>
+            <div id="account-label" class="info-label center-align already_logged scalable-offsets"
+                 style="top: -16px;left: 525px;">ACCOUNT
+            </div>
+            <div class="center-align already_logged scalable-offsets" style="top: -16px;left: 576px;">
+                <div id="account" class="value-label center-left-align already_logged"></div>
+                <div class="center-align scalable-offsets already_logged" style="left: 115px;">
+                    <div class="change-pass-button min-tool-button center-align"></div>
+                    <div id="pass-change-btn" class="change-pass-button-selected min-tool-button center-align"></div>
+                </div>
+            </div>
+            <div id="balance-label" class="info-label center-align already_logged scalable-offsets"
+                 style="top: 16px;left: 525px;">BALANCE
+            </div>
+            <div class="center-align already_logged scalable-offsets" style="top: 16px;left: 576px;">
+                <div id="balance" class="value-label center-left-align already_logged"></div>
+                <div id="refresh-balance" class="center-left-align already_logged"
+                     style="background: url(libs/FLGUtils/resources/Account/refresh.png) no-repeat 100% 100%; background-size: contain; height: 22px;width: 22px"></div>
+            </div>
+        </div>
+    </div>
+    <div id="games-container" class="top-align" style="top: 92px;"></div>
+</div>
+<div id="game-form" class="invisible-form" style="position: fixed; top: 50%">
+    <div id="game-form1" class="center-align"></div>
+</div>
+<div id="change-password-form" class="invisible-form center-align" style="position: fixed;">
+    <div id="change-password-form-bg" class="center-align scalable-offsets"></div>
+    <div class="center-align scalable-offsets" style="left: -6px; top: -128px;">
+        <input
+                class="login center-align scalable-offsets"
+                style="left: -160px; top: 57px;" placeholder="login"
+                onfocus="placeholder='';"
+                onblur="setTimeout(function () {placeholder=mainLocalizationTable.login;}, 100);"
+                onkeypress="return isNumberKey(event)" type="text">
+        <input
+                class="password center-align scalable-offsets"
+                style="left: -160px; top: 142px;" placeholder="password" onfocus="" placeholder=""
+                onblur="setTimeout(function () {placeholder=mainLocalizationTable.password;}, 100);"
+                onkeypress="return isNumberKey(event)" type="password">
+        <input
+                class="password center-align scalable-offsets new-password1" style="left: -160px; top: 226px;"
+                placeholder="new password" onfocus="placeholder='';"
+                onblur="setTimeout(function () {placeholder=mainLocalizationTable.newPassword;}, 100);"
+                onkeypress="return isNumberKey(event)" type="password">
+        <input
+                class="password center-align scalable-offsets new-password2" style="left: -160px; top: 312px;"
+                placeholder="repeat new password" onfocus="placeholder='';"
+                onblur="setTimeout(function () {placeholder=mainLocalizationTable.repeatNewPassword;}, 100);"
+                onkeypress="return isNumberKey(event)" type="password">
+        <div class="center-align scalable-offsets" style="left: 126px; top: 57px;">
+            <div class="num-buttons center-align"
+                 style="background: url(images/ChangePass/1.png) no-repeat 100% 100%;"></div>
+            <div class="num-buttons-selected num-buttons center-align"
+                 style="background: url(images/ChangePass/1-a.png) no-repeat 100% 100%; opacity: 0;">1
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 219px; top: 57px;">
+            <div class="num-buttons center-align"
+                 style="background: url(images/ChangePass/2.png) no-repeat 100% 100%;"></div>
+            <div class="num-buttons-selected num-buttons center-align"
+                 style="background: url(images/ChangePass/2-a.png) no-repeat 100% 100%; opacity: 0;">2
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 311px; top: 57px;">
+            <div class="num-buttons center-align"
+                 style="background: url(images/ChangePass/3.png) no-repeat 100% 100%;"></div>
+            <div class="num-buttons-selected num-buttons center-align"
+                 style="background: url(images/ChangePass/3-a.png) no-repeat 100% 100%; opacity: 0;">3
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 127px; top: 142px;">
+            <div class="num-buttons center-align"
+                 style="background: url(images/ChangePass/4.png) no-repeat 100% 100%;"></div>
+            <div class="num-buttons-selected num-buttons center-align"
+                 style="background: url(images/ChangePass/4-a.png) no-repeat 100% 100%; opacity: 0;">4
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 219px; top: 142px;">
+            <div class="num-buttons center-align"
+                 style="background: url(images/ChangePass/5.png) no-repeat 100% 100%;"></div>
+            <div class="num-buttons-selected num-buttons center-align"
+                 style="background: url(images/ChangePass/5-a.png) no-repeat 100% 100%; opacity: 0;">5
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 311px; top: 142px;">
+            <div class="num-buttons center-align"
+                 style="background: url(images/ChangePass/6.png) no-repeat 100% 100%;"></div>
+            <div class="num-buttons-selected num-buttons center-align"
+                 style="background: url(images/ChangePass/6-a.png) no-repeat 100% 100%; opacity: 0;">6
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 127px; top: 227px;">
+            <div class="num-buttons center-align"
+                 style="background: url(images/ChangePass/7.png) no-repeat 100% 100%;"></div>
+            <div class="num-buttons-selected num-buttons center-align"
+                 style="background: url(images/ChangePass/7-a.png) no-repeat 100% 100%; opacity: 0;">7
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 219px; top: 227px;">
+            <div class="num-buttons center-align"
+                 style="background: url(images/ChangePass/8.png) no-repeat 100% 100%;"></div>
+            <div class="num-buttons-selected num-buttons center-align"
+                 style="background: url(images/ChangePass/8-a.png) no-repeat 100% 100%; opacity: 0;">8
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 311px; top: 227px;">
+            <div class="num-buttons center-align"
+                 style="background: url(images/ChangePass/9.png) no-repeat 100% 100%;"></div>
+            <div class="num-buttons-selected num-buttons center-align"
+                 style="background: url(images/ChangePass/9-a.png) no-repeat 100% 100%; opacity: 0;">9
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 127px; top: 312px;">
+            <div class="num-buttons center-align"
+                 style="background: url(images/ChangePass/cancel.png) no-repeat 100% 100%;"></div>
+            <div class="num-buttons-selected num-buttons center-align"
+                 style="background: url(images/ChangePass/cancel-a.png) no-repeat 100% 100%; opacity: 0;">C
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 219px; top: 312px;">
+            <div class="num-buttons center-align"
+                 style="background: url(images/ChangePass/0.png) no-repeat 100% 100%;"></div>
+            <div class="num-buttons-selected num-buttons center-align"
+                 style="background: url(images/ChangePass/0-a.png) no-repeat 100% 100%; opacity: 0;">0
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 311px; top: 312px;">
+            <div class="num-buttons center-align"
+                 style="background: url(images/ChangePass/back-del.png) no-repeat 100% 100%;"></div>
+            <div class="num-buttons-selected num-buttons center-align"
+                 style="background: url(images/ChangePass/back-del-a.png) no-repeat 100% 100%; opacity: 0;"></div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 219px; top: 378px;">
+            <div class="min-num-buttons center-align change-input"
+                 style="background: url(images/changePassAdd/0-abc-keyboard-1.png) no-repeat 100% 100%;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align change-input"
+                 style="background: url(images/changePassAdd/0-abc-keyboard-2.png) no-repeat 100% 100%; opacity: 0;">%
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 116px; top: 40px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/a-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/a-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                a
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 184px; top: 40px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/b-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/b-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                b
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 252px; top: 40px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/c-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/c-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                c
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 320px; top: 40px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/d-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/d-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                d
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 116px; top: 88px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/e-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/e-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                e
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 184px; top: 88px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/f-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/f-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                f
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 252px; top: 88px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/g-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/g-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                g
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 320px; top: 88px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/h-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/h-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                h
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 116px; top: 136px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/i-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/i-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                i
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 184px; top: 136px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/j-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/j-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                j
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 252px; top: 136px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/k-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/k-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                k
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 320px; top: 136px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/l-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/l-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                l
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 116px; top: 184px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/m-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/m-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                m
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 184px; top: 184px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/n-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/n-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                n
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 252px; top: 184px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/o-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/o-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                o
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 320px; top: 184px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/p-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/p-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                p
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 116px; top: 232px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/q-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/q-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                q
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 184px; top: 232px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/r-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/r-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                r
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 252px; top: 232px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/s-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/s-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                s
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 320px; top: 232px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/t-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/t-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                t
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 116px; top: 280px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/u-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/u-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                u
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 184px; top: 280px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/v-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/v-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                v
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 252px; top: 280px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/w-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/w-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                w
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 320px; top: 280px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/x-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/x-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                x
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 116px; top: 328px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/0-cancel-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/0-cancel-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                C
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 184px; top: 328px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/y-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/y-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                y
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 252px; top: 328px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/z-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/z-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;">
+                z
+            </div>
+        </div>
+        <div class="center-align scalable-offsets" style="left: 320px; top: 328px;">
+            <div class="min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/0-delete-keyboard-1.png) no-repeat 100% 100%;display:none;"></div>
+            <div class="num-buttons-selected min-num-buttons center-align"
+                 style="background: url(images/changePassAdd/0-delete-keyboard-2.png) no-repeat 100% 100%; opacity: 0;display:none;"></div>
+        </div>
+    </div>
+    <div class="center-align scalable-offsets" style="left: -160px; top: 281px;">
+        <div id="change-pwd" class="buttons center-align"
+             style="background: url(images/ChangePass/change-En-a.png) no-repeat 100% 100%;"></div>
+        <div id="change-pwd-selected" class="buttons center-align"
+             style="background: url(images/ChangePass/change-En-b.png) no-repeat 100% 100%; opacity: 0;"></div>
+    </div>
+    <div class="center-align scalable-offsets" style="left: -312px; top: -207px;">
+        <div class="back-button tool-button center-align"></div>
+        <div id="change-pass-back" class="back-button-selected tool-button center-align"></div>
+    </div>
+    <div class="logo center-align scalable-offsets" style="top: -208px;left: 0px;"></div>
+    <div class="info center-align scalable-offsets"
+         style="top: 345px; width: 700px; height: 40px; color: #ffffff; font-size: 40px; text-align: center; opacity: 0; line-height: 50px;left: 0px;"></div>
+</div>
+<div id="rotate_device">
+    <div id="rotate_device_img" class="rotate_device_img"><img align="middle" src="images/rotate_device3.png">
+    </div>
+</div>
+<div id="hand-touch">
+    <div id="hand-touch-gif" class="rotate_device_img"><img align="middle" src="images/fullscreen-swipe.gif">
+    </div>
+</div>
+<!--[if lt IE 9]>
+<script src="libs/html5shiv/es5-shim.min.js"></script>
+<script src="libs/html5shiv/html5shiv.min.js"></script>
+<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/respond/respond.min.js"></script> <![endif]-->
+
+<div class="ghist">
+    <div class="ghist__wrap" id="histWrap"></div>
+</div>
+
+<script>
+    if (!window.FLGUtils) window.FLGUtils = {
+        staticRootPath: 'http://127.0.0.1/keno/'
+    };
+</script>
+<script src="libs/jquery/jquery-1.12.0.min.js"></script>
+<script src="js/game/preload.js?d=31012022"></script>
+<script src="libs/fancybox2/jquery.fancybox.pack.js"></script>
+<script src="libs/jquery.parallax/jquery.parallaxOld.min.js"></script>
+<script src="libs/jquery.easing/jquery.easing.min.js"></script>
+<script src="libs/jquery.flip/jquery.flip.min.js"></script>
+<script src="libs/DataTables/jquery.dataTables.min.js"></script>
+<script src="libs/DataTables/dataTables.semanticui.min.js"></script>
+<script src="libs/DataTables/semanticStyle/semantic.min.js"></script>
+<script src="libs/howler/howler.core.min.js"></script>
+<script src="libs/lowtype/lowtype.min.js"></script>
+<script src="libs/isMobile/isMobile.min.js"></script>
+<script src="libs/Tween/Tween.js"></script>
+<script src="libs/PIXI/pixi.js"></script>
+<script src="libs/FLGUtils/FLG.Consts.js?d=20240923"></script>
+<script src="libs/FLGUtils/FLG.Localization.js?d=202403181000"></script>
+<script src="libs/FLGUtils/FLG.SoundManager.js?d=01092021"></script>
+<script src="libs/FLGUtils/utils.js?d=20241020"></script>
+
+<script src="libs/FLGUtils/FLG.PixiUtils.js"></script>
+<script src="libs/imagesLoaded/imagesloaded.pkgd.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/history.js"></script>
+<script src="js/startWindow.js"></script>
+<!-- Games -->
+<script src="games/Intracing/FLG.Intracing.Main0d23.js?d=21052021_7"></script>
+<script src="games/Lotto/FLG.LottoSeparate.Mainc5cf.js?d=20230819"></script>
+<script src="games/Lotto/FLG.LottoSeparateMobile.Mainc5cf.js?d=20230819"></script>
+<script src="games/Keno/FLG.KenoNG.Main.20241008.js"></script>
+<script src="games/Keno/FLG.KenoNGMobile.Main.20241008.js"></script>
+<script src="games/KenoOld/FLG.KenoOld.Main.20241112.js"></script>
+<script src="games/Keno/FLG.KenoJX.js?d=20230424"></script>
+<script src="games/Keno/FLG.KenoJXMobile.Main54be.js?d=20230424"></script>
+<script src="games/RedLottery/FLG.RedLottery.Main53a9.js?d=30122020"></script>
+<script src="games/Roulette/FLG.Roulette.Main1956.js?d=01042021"></script>
+<script src="games/Poker/FLG.Poker.Main72ef.js?d=20240722"></script>
+<script src="games/Poker/FLG.PokerMobile.Main6d64.js?d=01112020"></script>
+<script src="games/BlackRoulette/js/chips.js"></script>
+<script src="games/BlackRoulette/FLG.BlackRoulette.Mainf5d0.js?d=20241020"></script>
+<script src="games/BlackRoulette/FLG.BlackRouletteMobile.Mainf5d0.js?d=20241020"></script>
+<script src="games/BlackRoulette4Sasha/FLG.BlackRoulette4Sasha.Mainca11.js?d=20230517"></script>
+<script src="games/BlackRoulette4Sasha/FLG.BlackRouletteMobile4Sasha.Main4280.js?d=11042021"></script>
+<script src="games/Sport/Penalty1min.Main1555.js?d=0003"></script>
+<script src="games/Sport/Dog6_1min.Mainb36c.js?d=0004"></script>
+<script src="games/Sport/Horse6_1min.Main1555.js?d=0003"></script>
+<script src="games/Sport/Soccer.Main9ee9.js?d=20240119_1"></script>
+<script src="games/Slot/Spin2Win14e3.js?v=20230830"></script>
+<script src="games/Slot/S2WLive3b4c.js?v=20241028"></script>
+<script src="games/Lotto/FLG.LottoMBK.Mainbf88.js?d=20241016"></script>
+<script src="games/Lotto/FLG.LottoMBKMobile.Mainbf88.js?d=20241016"></script>
+</body>
+
+</html>
